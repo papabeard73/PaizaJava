@@ -11,6 +11,8 @@ public class practice {
     Scanner sc = new Scanner(in);
     String line = sc.nextLine();
     String result = line;
+//    String[] words = new Scanner(System.in).nextLine().split(" ");
+//    System.out.println(words);
 
     return result + "\n";
   }

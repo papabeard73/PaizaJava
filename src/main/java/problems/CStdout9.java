@@ -13,6 +13,7 @@ public class CStdout9 {
     String result = "";
     for (int i = 0; i < numN; i++) {
       int inputNum = sc.nextInt();
+      // numM桁の右寄せで出力
       result += String.format("%" + numM + "d%n", inputNum);
     }
     sc.close();

@@ -41,3 +41,6 @@ int q = sc.nextInt();      // 例：先頭の整数
 double n = sc.nextDouble();// 続く浮動小数
 int m = sc.nextInt();      // さらに整数
 ```
+```
+public static String exec(InputStream in) throws IOException {}
+```
