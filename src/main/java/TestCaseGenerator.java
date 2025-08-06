@@ -1,23 +1,17 @@
 public class TestCaseGenerator {
   public static void main(String[] args) {
     String txtInput = """
-        6
-        apple
-        book
-        information
-        note
-        pen
-        pineapple
+        10 3
+        24
+        35
+        3
         """;
     String txtOutput = """
-        pineapple
-        pen
-        note
-        information
-        book
-        apple
+        20
+        40
+        10
         """;
-    System.out.printf("{%s, %s},\n", convertToSingleLine(txtInput), convertToSingleLine(txtOutput));
+    System.out.printf("String input = %s;\nString expected = %s;\n", convertToSingleLine(txtInput), convertToSingleLine(txtOutput));
   }
 
   public static String convertToSingleLine(String text) {

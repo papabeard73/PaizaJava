@@ -9,6 +9,10 @@ import problems.CStdout8;
 import problems.CStdout8Answer;
 import problems.CStdout9;
 import problems.CskillCheck01;
+import problems.CskillCheck02;
+import problems.CskillCheck03;
+import problems.CskillCheck04;
+import problems.CskillCheck05;
 import problems.E2Eight;
 import problems.E2Seven;
 import problems.E2Six;
@@ -18,7 +22,7 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     // 例: problems/E2Sixを実行したい場合は　String result = E2Six.exec(System.in);　
-    String result = CskillCheck01.exec(System.in);
+    String result = CskillCheck05.exec(System.in);
     System.out.print(result);
   }
 }
